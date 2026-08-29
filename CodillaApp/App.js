@@ -4,7 +4,7 @@ import StatCard from './components/StatCard';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>My Custom Dashboard</Text>
+      <Text style={styles.header}>MY CUSTOM DASHBOARD 📊</Text>
 
       {/* Rendering multiple cards using props */}
       <StatCard
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     paddingTop: 60,
   },
   header:{
-    fonstSize: 24,
+    fontSize: 28,
     fontWeight: 'bold',
     marginBottom: 20,
     color: '#1f2937',

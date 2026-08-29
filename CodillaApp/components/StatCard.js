@@ -1,4 +1,4 @@
-import { Stylesheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 export default function StatCard(props) {
     return (
         <View style={[styles.card, { backgroundColor: props.bgColor }]}>
@@ -8,7 +8,7 @@ export default function StatCard(props) {
     );
 }
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
     card: {
         padding: 20,
         borderRadius: 12,
