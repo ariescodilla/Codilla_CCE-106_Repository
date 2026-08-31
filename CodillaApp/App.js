@@ -8,19 +8,19 @@ export default function App() {
 
       {/* Rendering multiple cards using props */}
       <StatCard
-        title="Total Users"
+        title="Total Users 👥"
         value="1,240"
         bgColor="#4f46e5"
       />
 
       <StatCard
-        title="Revenue"
+        title="Revenue 💰"
         value="$12,450"
         bgColor="#059669"
       />
 
       <StatCard
-        title="Pending Issues"
+        title="Pending Issues ⚠️"
         value="3"
         bgColor="#d97706"
       />
@@ -31,14 +31,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f3f4f6',
+    backgroundColor: '#dde8ff',
     padding: 20,
     paddingTop: 60,
   },
-  header:{
-    fontSize: 28,
+  header: {
+    textAlign: 'center',
+    fontSize: 45,
     fontWeight: 'bold',
-    marginBottom: 20,
+    marginBottom: 50,
     color: '#1f2937',
   },
 });
